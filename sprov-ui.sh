@@ -326,7 +326,7 @@ show_log() {
 }
 
 install_bbr() {
-    bash <(curl -L -s https://github.com/sprov065/blog/raw/master/bbr.sh)
+    wget "https://github.com/LuisLIn666/Linux-NetSpeed/raw/master/tcp.sh" && chmod +x tcp.sh && ./tcp.sh
     if [[ $? == 0 ]]; then
         echo ""
         echo -e "${green}安装 bbr 成功${plain}"
