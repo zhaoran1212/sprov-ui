@@ -49,7 +49,10 @@ wget -O /usr/bin/sprov-ui -N --no-check-certificate https://github.com/wejudging
 ```
 
 ```
-
+wget -O sprov-ui https://github.com/wejudging/sprov-ui/raw/master/sprov-ui.sh
+chmod +x sprov-ui
+mv sprov-ui /usr/bin/ -f
+sprov-ui
 ```
 # Telegram 群组
 https://t.me/sprov_blog
