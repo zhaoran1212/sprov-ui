@@ -13,8 +13,4 @@ You can use   #  lsmod | grep bbr # to see if it‘s started
 return tcp_bbrplus            20480  8
 If any of the above items occur, the startup is successful.
 ______________________________________
-Tested .It can be install on Ubuntu successful.
-
-
-
 Statement: Anyone who uses this script in illegal ways has nothing to do with me and I am not liable for any major legal responsibility.
