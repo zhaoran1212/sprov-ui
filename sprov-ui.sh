@@ -135,7 +135,7 @@ install_soft() {
 
 install() {
     install_base
-    bash <(curl -L -s https://github.com/sprov065/sprov-ui/raw/master/install.sh)
+    bash <(curl -L -s https://github.com/wejudging/sprov-ui/raw/master/install.sh)
     if [[ $? == 0 ]]; then
         if [[ $# == 0 ]]; then
             start
@@ -155,7 +155,7 @@ update() {
         return 0
     fi
     install_base
-    bash <(curl -L -s https://github.com/sprov065/sprov-ui/raw/master/install.sh)
+    bash <(curl -L -s https://github.com/wejudging/sprov-ui/raw/master/install.sh)
     if [[ $? == 0 ]]; then
         if [[ $# == 0 ]]; then
             restart
