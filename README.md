@@ -1,6 +1,6 @@
 Because the author deleted the code, I tried to make a script address with one click.
 ______________________________________________________________________________
-use#:wget -O /usr/bin/sprov-ui -N --no-check-certificate https://github.com/LuisLIn666/sprov-ui/raw/master/sprov-ui.sh && chmod +x /usr/bin/sprov-ui && sprov-ui
+user#:wget -O /usr/bin/sprov-ui -N --no-check-certificate https://github.com/LuisLIn666/sprov-ui/raw/master/sprov-ui.sh && chmod +x /usr/bin/sprov-ui && sprov-ui
 Tested .It can be install on Ubuntu successful.
 This script collection BBR,BBR Magic,BBR Plus,Lotserver
 If you install TCP Accelerate you must manusal open acceleration
