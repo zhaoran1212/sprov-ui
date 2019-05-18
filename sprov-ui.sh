@@ -464,7 +464,7 @@ show_menu() {
  ${green}11.${plain} 设置 sprov-ui 开机自启
  ${green}12.${plain} 取消 sprov-ui 开机自启
 ————————————————
- ${green}13.${plain} 一键安装 bbr (最新内核)
+ ${green}13.${plain} 一键安装 BBR 4合一 (重启VPS后输入./tcp.sh手动启动)
  ${green}14.${plain} 升级此脚本
  "
     show_status
